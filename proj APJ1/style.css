@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    border: 0;
+}
+.wrapper {
+    overflow-y: hidden;
+    min-height: 100vh;
+    background-color: #E5E5FD;
+    border: 4px solid black;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    
+}
+
+.pic ,img {
+    height: 392px;
+    width: 314px;
+    border-radius: 170px;
+}
+.top{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 100px;
+    align-items: flex-end;
+
+}
+.heading h1 {
+    text-transform: uppercase;
+    word-spacing: 19px;
+    font-size: 40px;
+}
+.heading h4{
+    text-align: end;
+    font-size: 25px;
+}
+
+.info {
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+.info h1 {
+    font-size: 45px;
+    word-spacing: 15px;
+    margin-bottom: 25px;
+}
+.info p {
+    word-spacing: 6px;
+}
+
+.bio {
+    margin-bottom: 30px;
+}
+
+.footer {
+    text-align: end;
+}

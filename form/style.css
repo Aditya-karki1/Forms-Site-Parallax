@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-color: #ccc;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    height: 650px;
+    width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 13px;
+    padding: 20px;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+    font-weight: 530;
+    word-spacing: 5px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.data {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 800px;
+    row-gap: 25px;
+}
+
+.sme {
+    width: 350px;
+}
+.textarea_control{
+    width: 780px;
+    height: 120px;
+    padding-left: 15px;
+}
+#address {
+    width: 720px;
+    height: 100px;
+}
+
+.one {
+    border: 2px solid black;
+    width: 325px;
+    border-radius: 3px;
+    height: 33px;
+}
+.button_container{
+    text-align:end ;
+    padding-right: 40px;
+    height: 80px;
+}
+.upload {
+    text-align: center;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: aliceblue;
+    margin-top: 50px ;
+}
+.btn:hover{
+    cursor: pointer;
+}
+#upload{
+    text-align: center ;
+}
+
+
+
+
+
